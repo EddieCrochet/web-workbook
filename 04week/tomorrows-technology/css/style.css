@@ -7,8 +7,8 @@
     .news{
         display:none;
     }
-    .title-container, .tech-world{
-        width:100%;
+    .main{
+        width:100% !important;
         display:flex;
         justify-content: center;
         flex-direction: column;
@@ -19,9 +19,10 @@
   }
   @media (max-width:768px){
     .main{
-      display:flex;
-      justify-content:center;
-    
+        width:100% !important;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .news{
         display:none;
@@ -59,7 +60,7 @@ img{
       float:right;
       width:25%;
   }
-  .stories{
+  .stories > li{
       list-style: none;
       display:flex;
       justify-content: flex-start;
@@ -71,7 +72,7 @@ img{
 .mobileOnly{
     float:right;
     background:gray;
-    height:600px;
+    height:100px;
     width:570px;
     display:none;
 }
