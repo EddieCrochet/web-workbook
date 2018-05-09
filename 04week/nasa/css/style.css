@@ -19,4 +19,25 @@ body{
     height: 324px;
     background-color: #e6e6e6;
     margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
+.myLists{
+    list-style-type: none;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .officeInfo{ */
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+/* } */
+/* .contactUs{ */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+/* } */
