@@ -13,7 +13,7 @@
         justify-content: center;
         flex-direction: column;
     }
-    .mobileOnly{
+    footer{
         display:none;
     }
   }
@@ -30,13 +30,13 @@
     .title-container{
         width:100%;
     }
-    .mobileOnly{
+    footer{
         display:flex !important;
         justify-content: center;
         align-items: baseline;
         color:white;
     }
-    .mobileOnly>ul,li{
+    footer>ul,li{
         list-style-type: none;
     }
   }
@@ -75,10 +75,11 @@ img{
   .newsStory{
       padding:5px;
   }
-.mobileOnly{
+footer{
     float:right;
     background:gray;
-    height:250px;
-    width:570px;
     display:none;
+    width:100%;
+    /* justify-content:space-around; */
+    /* box-sizing: border-box; */
 }
