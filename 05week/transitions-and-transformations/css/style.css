@@ -1,0 +1,56 @@
+.square{
+    height:50px;
+    width:50px;
+    border: .5px solid black;
+    transition: transform 9001ms ease-in-out;
+    pointer-events:none;
+}
+.container{
+    width:50px;
+    margin: 0 auto;
+}
+.container:hover>div:nth-child(odd){
+    transform:translate(400px) scale(2.0) rotate(500deg);
+}
+.container:hover>div:nth-child(even){
+    transform:translate(-400px) scale(.5) rotate(-500deg);
+}
+
+.red{
+    background-color: red;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color:orange;
+}
+.teal{
+    background-color: teal;
+}
+.white{
+    background-color: white;
+}
+.brown{
+    background-color: brown;
+}
+.silver{
+
+    background-color: silver;
+}
+.blue{
+    background-color:blue ;
+}
+.khaki{
+    background-color: khaki;
+}
+.black{
+    background-color: black;
+}
+.yellow{
+    background-color: yellow;
+}
+
