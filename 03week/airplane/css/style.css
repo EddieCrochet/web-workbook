@@ -3,6 +3,7 @@
 } 
 body {
     background-image: url("../img/airline.jpg");
+    background-repeat: no-repeat;
 }
   .top {
     display:flex;
@@ -86,7 +87,9 @@ section{
     border-radius:2px;
     color:white;
     padding: 10px; 
+    background: #193a55;
   }
+
   .wrapper3 {
     display:flex;
   }
