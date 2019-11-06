@@ -12,7 +12,7 @@ div[data-cell] {
   clear: both;
 }
 
-#announce-winner {
-  clear: both;
+.announce-winner {
   font-size: 50px;
+  height: 200px;
 }
