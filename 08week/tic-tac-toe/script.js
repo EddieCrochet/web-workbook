@@ -2,22 +2,23 @@
 $(document).ready(function () {
   let playerOne = 'X';
   let playerTwo = '0';
-  var pic0 = $("[data-cell=0]").text;
-  var pic1 = $("[data-cell=1]").text;
-  var pic2 = $("[data-cell=2]").text;
-  var pic3 = $("[data-cell=3]").text;
-  var pic4 = $("[data-cell=4]").text;
-  var pic5 = $("[data-cell=5]").text;
-  var pic6 = $("[data-cell=6]").text;
-  var pic7 = $("[data-cell=7]").text;
-  var pic8 = $("[data-cell=8]").text;
+  var pic0 = $("[data-cell=0]");
+  var pic1 = $("[data-cell=1]");
+  var pic2 = $("[data-cell=2]");
+  var pic3 = $("[data-cell=3]");
+  var pic4 = $("[data-cell=4]");
+  var pic5 = $("[data-cell=5]");
+  var pic6 = $("[data-cell=6]");
+  var pic7 = $("[data-cell=7]");
+  var pic8 = $("[data-cell=8]");
   var turn = 1;
   var clear = '';
  
 
   $('[data-cell]').click(function () {
 
-    if (turn % 2 === 1) {
+    if (turn % 2 ===
+       1) {
       $(this).text(playerOne);
       checkWin();
     } else {
@@ -40,7 +41,7 @@ $(document).ready(function () {
   //  })
 
   function checkWin() {
-    console.log("checking win");
+    console.log("checking win", pic0);
     if ((pic0 === playerOne && pic1 === playerOne && pic2 === playerOne) ||
       (pic3 === playerOne && pic4 === playerOne && pic5 === playerOne) ||
       (pic6 === playerOne && pic7 === playerOne && pic8 === playerOne)) {
