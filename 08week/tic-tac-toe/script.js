@@ -2,7 +2,7 @@
 $(document).ready(function () {
   let playerOne = 'X';
   let playerTwo = '0';
-  var pic0 = $("[data-cell=0]");
+  var pic0 = $("#_0").html();
   var pic1 = $("[data-cell=1]");
   var pic2 = $("[data-cell=2]");
   var pic3 = $("[data-cell=3]");
